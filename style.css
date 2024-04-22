@@ -1,0 +1,54 @@
+/* 
+the brown rgb(62,53,48) #463d36
+big white div 600px wide
+red font 40px from right white div rgb(156,22,42) #a6192e- 
+h1 28px bottom from p
+inner brown button - 40px on right , 30px on top on the inside / 40px on the outside bot
+
+red font 28px
+main font 40px
+p 28px 
+inner brown div font 24px
+*/
+
+body {
+    background-color: rgb(62,53,48);
+    color:rgb(62,53,48);
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: fit-content;
+    margin: 100px auto;
+    background-color: white;
+    min-width: 600px;
+    border-radius: 15px;   
+    padding: 40px;
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+.red {
+    color: rgb(156,22,42);
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size:28px
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.inner {
+    max-width: 550px;
+}
+
+button {
+    font-size: 24px;
+    background-color: rgb(62,53,48);
+    color: white;
+    padding: 30px 40px;
+    font-weight: bold;
+}
